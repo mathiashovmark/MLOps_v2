@@ -1,5 +1,5 @@
 steps:
-   - name: 'gcr.io/cloud-builders/docker'
+   - name: 'gcr.io/cloud-builders/docker1'
      args: ['build', '-t', 'gcr.io/deft-justice-374308/trainer100', '.']
-   - name: 'gcr.io/cloud-builders/docker'
+   - name: 'gcr.io/cloud-builders/docker1'
      args: ['push', 'gcr.io/deft-justice-374308/trainer100']
