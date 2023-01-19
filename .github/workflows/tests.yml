@@ -2,9 +2,9 @@ name: "Run tests"
 
 on:
   push:
-    branches: [ master, MobyDocker, GittyUpActions ]
+    branches: [ master, Tuesday, MobyDocker, GittyUpActions ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, Tuesday ]
 
 jobs:
   build:
